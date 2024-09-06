@@ -23,6 +23,10 @@ When the guest submits their RSVP status, a success message will confirm this on
 
 I am using the Next.js framework, and will host through Vercel because it provides seamless integration, automatic optimizations, and a globally distributed infrastructure, ensuring fast load times and effortless deployment for my application. For the database, I want to experiment with Vercel Postgres, which offers serverless scalability, built-in integration with Vercel's platform, and a simplified developer experience with automatic handling of connections and performance optimizations.
 
+The site is currently hosted at `https://rach-and-chris-iizk.vercel.app/`.
+
+I will create a custome domain later.
+
 ### Clone the project locally
 
 1. Click on the "Code" tab on this repo's "Code" page.
@@ -43,3 +47,6 @@ ls
 ```
 code .
 ```
+## Usage Guidelines
+
+In the root of the directory you will need to run `npm i` in the terminal to install the projects dependencies. In the root you can also run `npm run dev` to run the server locally. 
