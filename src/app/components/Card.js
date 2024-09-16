@@ -34,8 +34,7 @@ export default function Card() {
         // </UICard>
         <UICard className={cn("w-[380px]")}>
             <CardHeader>
-                <CardTitle>Notifications</CardTitle>
-                <CardDescription>You have 3 unread messages.</CardDescription>
+                <CardTitle>Enter your access code</CardTitle>
             </CardHeader>
             <CardContent className="grid gap-4">
                 <div className=" flex items-center space-x-4 rounded-md border p-4">
